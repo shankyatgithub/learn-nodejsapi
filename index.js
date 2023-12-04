@@ -42,7 +42,8 @@ const gitHubData = {
 }
 
 app.get('/github', (req,res) => {
-    res.send(gitHubData);
+    console.log("github endpoint again");
+    res.json(`${gitHubData}`);
 })
 
 app.get('/login', (req,res) => {
