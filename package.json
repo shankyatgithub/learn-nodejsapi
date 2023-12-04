@@ -1,0 +1,18 @@
+{
+  "name": "codeandchai",
+  "version": "1.0.0",
+  "description": "code and chai api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "code",
+    "chai"
+  ],
+  "author": "shashank kadge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
